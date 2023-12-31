@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colour changer</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="heading">Colour changer</h1>
+        <p>This is a colour changer</p>
+     <button id="red" onclick="colourchanger('red');" ondblclick="changetitle('red')">
+            <div class="red">red</div>
+        </button>
+        <button type="button" onclick="changeBodyBg('lime');">Lime</button>
+
+        <button onclick="colourchanger(`Black`)">
+            <div class="Black">Black</div>
+        </button>
+        <button onclick="colourchanger(`Purple`);">
+            <div class="Purple">Purple</div>
+        </button>
+    </div>
+</body>
+<script src="./javascript1.js"></script>
+</html>
